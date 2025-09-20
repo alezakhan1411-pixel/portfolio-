@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            gap:50px;
+          
+        }
+        .nav{
+            border: 1px solid black none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            justify-content: center;
+            gap:20%;
+           
+          
+        }
+        .nav-link{
+            display: flex;
+            gap: 25px;
+        }
+        .nav-link a{
+            text-decoration: none;color: black;
+        }
+        /* media quray */
+         /* mobile */
+    @media(min-width:300px){
+        .nav{
+          flex-direction: column;
+        }
+    }
+    /* tab */
+     @media(min-width:600px){
+        .nav{
+          flex-direction: row;
+        }
+      }
+    /* laptop */
+     @media(min-width:900px){
+        .nav{
+          flex-direction: row;
+        }
+      }
+      /* nav-link */
+       /* mobile */
+    @media(min-width:300px){
+        .nav-link{
+          flex-direction: column;
+        }
+    }
+    /* tab */
+     @media(min-width:600px){
+        .nav-link{
+          flex-direction: row;
+        }
+      }
+    /* laptop */
+     @media(min-width:900px){
+        .nav-link{
+          flex-direction: row;
+        }
+      }
+      .herro{
+      border: 1px solid black none ;
+      align-items:center;
+      font-size:10vw;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      flex-direction: column;
+      justify-content: center;
+      display: flex;
+      overflow: hidden;
+     
+     
+        }
+         @media(min-width:300px){
+        .herro{
+          flex-direction: column;
+        }
+    }
+    /* tab */
+     @media(min-width:600px){
+        .herro{
+          flex-direction:column;
+        }
+      }
+    /* laptop */
+     @media(min-width:900px){
+        .herro{
+          flex-direction: column;
+        }
+      }
+      .man-img{
+        border: 1px solid black none;
+        display: flex;
+        flex-direction: row;align-items: center;
+      justify-content:space-around;
+      }
+        
+      /* man-img media quray */
+         @media(min-width:300px){
+        .man-img{
+          flex-direction: column;gap:35px;
+        }
+    }
+    /* tab */
+     @media(min-width:600px){
+        .man-img{
+          flex-direction:row;
+        }
+      }
+    /* laptop */
+     @media(min-width:900px){
+        .man-img{
+          flex-direction: row;
+        }
+      }
+      /* haiding part start */
+      .haiding{
+        border: 1px solid black none;
+        display: flex;
+        justify-content: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+      }
+      .man-card{
+        border:1px solid black none;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        gap: 30px;
+        
+        
+      }
+      .button-1{
+        display: flex;
+        justify-content: center;
+      }
+      .card-img{
+      border: 1px solid black none;
+      display: flex;
+      justify-content: center;
+      }
+   @media(min-width:300px){
+        .man-card{
+          flex-direction:column;
+        }
+    }
+    /* tab */
+     @media(min-width:600px){
+        .man-card{
+          flex-direction:row;
+        }
+      }
+    /* laptop */
+     @media(min-width:900px){
+        .man-card{
+          flex-direction: row;
+        }
+      }
+      .footer{
+        border: 1px  solid black none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:26%;
+        background-color: black;
+        color: white;
+      }
+       @media(min-width:300px){
+        .footer{
+          flex-direction:column;
+        }
+    }
+    /* tab */
+     @media(min-width:600px){
+        .footer{
+          flex-direction:row;
+        }
+      }
+    /* laptop */
+     @media(min-width:900px){
+        .footer{
+          flex-direction: row;
+        }
+      }
+    </style>
+</head>
+<body>
+    <!-- parent start -->
+    <div  class="parent">
+        <!-- navber start -->
+         <div class="nav">
+            <div class="logo">
+                <div><h1>Aliza Eman</h1></div>
+            </div>
+            <!-- nav-link -->
+            <div class="nav-link">
+                <a href="$">Home</a>
+                <a href="$">About</a>
+                <a href="$">Contact</a>
+            </div>
+            <!-- button -->
+             <div class="button">
+                <button style="background-color: black;color: white;width:80px;height: 30px;border-radius: 20px;">log in</button>
+
+             </div>
+         </div>
+         <!-- nav end -->
+
+         <!-- herro section start -->
+          <div class="herro">
+             <div>SENIOR</div>
+            <div>EXPERIENCE</div>
+            <div>DESIGNER@</div>
+          </div>
+           <!-- text -->
+              <div class="dd">
+                <div class="haiding">
+                  <h1>About Me!</h1>
+                </div>
+                </div>
+                <!-- text div end -->
+          <!-- imj part -->
+           <div class="man-img">
+          <div class="ww" style=" border: 1px solid black; width:270px;border: none;">
+          <div style="font-size:50px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Designing for <br> Amazing <br> people</div>
+            <p style="color: gray;">Desing user interfaces for over 10 year <br> as visul desinger </p>
+            <button style="width:120px;height:30px;border-radius: 20px;">Hire ME!</button>
+          </div>
+          <!-- div 2 -->
+           <div class="nn" style="border: 1px solid black;width:300px;overflow: hidden;border-radius:90%;max-height:350px;">
+           <img src="me.jpeg" alt="" style="width:100%;height:100%;object-fit:cover;object-position: top;">
+           </div>
+           </div>
+            <!-- imj part end -->
+             <!-- text -->
+              <div class="dd">
+                <div class="haiding">
+                  <h1>Which Services Provided</h1>
+                </div>
+                </div>
+                <!-- text div end -->
+                <!-- card  -->
+
+         <div class="man-card">
+                 <div class="card-1" style="border: 1px solid black; border-radius: 20px;padding: 20px 10px;">
+                     <div class="card-img">
+                  <img src="c:\Users\dell\Pictures\images\tajj.jpg" alt="" style="width:90px;height:90px;">
+                </div>
+                   <div style="font-size:35px;display: flex;justify-content: center;">UI/UX DESIGN</div>
+                   <p style="display: flex;justify-content:center;"> 
+                    <div style="display: flex;justify-content: center;">Creativ UI/UX Desing Focused on crafting .</div>
+                   <div style="display: flex;justify-content: center;">intuitive and modern user experiencrs.skilled in</div>
+                    <div style="display: flex;justify-content: center;">wireframing, prototyping ,ans responsiv desingn,and </div>
+                   <div style="display: flex;justify-content: center;"> responsive desingn using HTML,CSS and JAVA. </div>
+                    <div style="display: flex;justify-content: center;"> i turn ideas into clean,user-friendly interfaces </div>
+                    <div style="display: flex;justify-content: center;"> that elevate digital products.</div>
+                  </p>
+                  <div class="button-1">
+                    <button style="width:130px;height:36px; border-radius: 20px;border: none;color:white;background-color:black ;">CONTACT</button>
+                  </div>
+                  </div>
+                  <!-- card-2 -->
+                   <div class="card-2" style="border: 1px solid black;border-radius: 20px; padding: 20px 10px;">
+                      <div class="card-img">
+                  <img src="c:\Users\dell\Pictures\images\tajj.jpg" alt="" style="width:90px;height:90px;">
+                </div>
+                   <div style="font-size:35px;display: flex;justify-content: center;">LOGO DESIGN</div>
+                   <p style="display: flex;justify-content:center;"> 
+                    <div style="display: flex;justify-content: center;">Creativ UI/UX Desing Focused on crafting .</div>
+                   <div style="display: flex;justify-content: center;">intuitive and modern user experiencrs.skilled in</div>
+                    <div style="display: flex;justify-content: center;">wireframing, prototyping ,ans responsiv desingn,and </div>
+                   <div style="display: flex;justify-content: center;"> responsive desingn using HTML,CSS and JAVA. </div>
+                    <div style="display: flex;justify-content: center;"> i turn ideas into clean,user-friendly interfaces </div>
+                    <div style="display: flex;justify-content: center;"> that elevate digital products.</div>
+                  </p>
+                  <div class="button-1">
+                    <button style="width:130px;height:36px;border-radius: 20px;border: none;color: white;background-color: black;">CONTACT</button>
+                  </div>
+                   </div>
+                   <!-- card-3 -->
+                     <div class="card-3" style="border: 1px solid black; border-radius: 20px;padding: 20px 10px;">
+                       <div class="card-img">
+                  <img src="c:\Users\dell\Pictures\images\tajj.jpg" alt="" style="width:90px;height:90px;">
+                </div>
+                   <div style="font-size:35px;display: flex;justify-content: center;">ANIMATED DESIGN</div>
+                   <p style="display: flex;justify-content:center;"> 
+                    <div style="display: flex;justify-content: center;">Creativ UI/UX Desing Focused on crafting .</div>
+                   <div style="display: flex;justify-content: center;">intuitive and modern user experiencrs.skilled in</div>
+                    <div style="display: flex;justify-content: center;">wireframing, prototyping ,ans responsiv desingn,and </div>
+                   <div style="display: flex;justify-content: center;"> responsive desingn using HTML,CSS and JAVA. </div>
+                    <div style="display: flex;justify-content: center;"> i turn ideas into clean,user-friendly interfaces </div>
+                    <div style="display: flex;justify-content: center;"> that elevate digital products.</div>
+                  </p>
+                  <div class="button-1">
+                    <button style="width:130px;height:36px;border-radius: 20px;border: none; color: white;background-color: black;">CONTACT</button>
+                  </div>
+                   </div>
+          <!-- man-card end -->
+         </div>
+         <!-- .............................................................................. -->
+         <!-- footer start -->
+          <div class="footer">
+            <div class="home" style="border: 1px solid black;width: 140px;">
+           <h2>Experties</h2>
+           <div>UI/UX DESIGN</div>
+           <div>ANIMATED DESIGN</div>
+           <div>LOGO DESIGN</div>
+            </div>
+            <!-- 2nd footer div -->
+              <div class="about" style="border: 1px solid black;width: 140px;">
+           <h2>COMPANY</h2>
+           <div>Contact Us</div>
+           <div>About Us</div>
+           <div>News</div>
+            </div>
+            <!-- 3rd footer div -->
+             <div class="contact" style="border: 1px solid black;width: 140px;">
+              <h2>Get in Touch</h2>
+                <div>Contact Us</div>
+                <div>About Us</div>
+                <div>News</div>
+            </div>
+
+            <!-- footer end -->
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- parent end -->
+    </div>
+</body>
+</html>
